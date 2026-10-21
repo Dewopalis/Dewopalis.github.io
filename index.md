@@ -1,9 +1,8 @@
 ---
 layout: home
-title: "Dewald's Field Notes"
+title: "Dewald's Workbench"
 list_title: "Projects, experiments, side quests."
 ---
 
-Notes from the workbench: controller-first software, retro games, emulation,
-and the occasional deep dive into how old games work. Pull up a chair; there
-are new projects loading.
+Software experiments, retro games, Linux tinkering, and whatever rabbit hole
+comes next.
