@@ -23,10 +23,16 @@ often the input device already in your hands.
 - [How the project began]({{ '/2026/10/21/how-daisywheel-reamade-began/' | relative_url }})
 - [Release retrospectives]({{ '/#latest-posts' | relative_url }})
 
-## Golden Sun decompilation
-{: #golden-sun-decompilation }
+## Open Golden Sun
+{: #open-golden-sun }
 
-A side project exploring a decompilation of **Golden Sun**. I enjoy the
-investigation behind this kind of work: understanding how a game is put
-together, one discovery at a time. I'll add a source link, screenshots, and
-related notes as I publish more about the project.
+An early-stage Godot rebuild project exploring how to bring **Golden Sun** and
+**Golden Sun: The Lost Age** together as one continuous game. Mod support is
+part of the design from the outset: the combined campaign is planned as a
+first-party pack, alongside room for community mods and other ways to play.
+
+This is a rebuild, not a decompilation. The repository describes its current
+state as Phase 0 scaffolding, so there isn't a playable game yet. Its design
+also keeps original game material out of the repository and expects players to
+provide their own copies for local content extraction. I'll share more about
+the architecture and discoveries as the project develops.
