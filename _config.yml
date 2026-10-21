@@ -1,0 +1,25 @@
+title: "Dewald's Field Notes"
+description: "Notes from learning, building, and figuring things out along the way."
+url: "https://dewopalis.github.io"
+baseurl: ""
+theme: minima
+author:
+  name: Dewald
+  url: "https://github.com/Dewopalis"
+show_excerpts: true
+minima:
+  social_links:
+    - { platform: github, user_url: "https://github.com/Dewopalis" }
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+header_pages:
+  - about.md
+  - now.md
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
