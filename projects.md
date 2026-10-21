@@ -34,5 +34,6 @@ first-party pack, alongside room for community mods and other ways to play.
 This is a rebuild, not a decompilation. The repository describes its current
 state as Phase 0 scaffolding, so there isn't a playable game yet. Its design
 also keeps original game material out of the repository and expects players to
-provide their own copies for local content extraction. I'll share more about
-the architecture and discoveries as the project develops.
+provide their own copies for local content extraction. The project is still
+very early and isn't quite ready to share publicly. I'll share more about the
+architecture and discoveries as it develops.

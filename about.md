@@ -23,7 +23,8 @@ I'm also starting **Open Golden Sun** (a working title): an early Godot rebuild
 that aims to combine *Golden Sun* and *The Lost Age* into one continuous game,
 with mod support built in from the outset. I'm interested in understanding how
 the two games fit together and making room for people to experiment with them.
-It's still at the scaffolding stage, and I'll share more as it grows.
+It's still at the scaffolding stage and not quite ready to share publicly, but
+I'll write more about it as it grows.
 
 This blog is a work in progress, just like the things I'll write about. You can
 find the code for Daisywheel REAmade on [GitHub](https://github.com/Dewopalis/daisywheel-reamade).
