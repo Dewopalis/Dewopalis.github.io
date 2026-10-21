@@ -78,7 +78,7 @@ was about the wheel itself.
 
 That is still the part I find interesting: taking a familiar interaction and
 making it fit a different kind of computer. Daisywheel REAmade has grown well
-beyond that first prototype, but the original goal remains the same—make text
+beyond that first prototype, but the original goal remains the same: make text
 entry feel natural when a controller is the input device in your hands.
 
 ### References

@@ -23,9 +23,9 @@ profile, while existing saved preferences are kept.
 
 The new editing mode lets the left stick move the text cursor while RT is held.
 LB selects text, RB moves by words, and holding both allows word-by-word
-selection. A configurable shared stick deadzone—from 5% to 45%—helps account for
-different controllers and stick drift while using the wheel, pointer, or editing
-controls.
+selection. The shared stick deadzone is adjustable from 5% to 45% to account
+for different controllers and stick drift while using the wheel, pointer, or
+editing controls.
 
 I also tightened the settings layout so its controls fit narrow windows, and
 moved several UI widgets out of the large main source file. The release passed
@@ -34,8 +34,8 @@ Real applications, target handhelds, and external permission prompts still
 deserve testing beyond what automated checks can cover.
 
 For me, this release was a step toward making the full experience controller-
-first—not just typing, but also setup and correction. There is still more to
-learn from testing across devices and desktop environments.
+first. That means supporting setup and correction, as well as typing. There is
+still more to learn from testing across devices and desktop environments.
 
 ### Release
 
