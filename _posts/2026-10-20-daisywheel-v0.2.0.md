@@ -2,7 +2,7 @@
 layout: post
 title: "Daisywheel REAmade v0.2.0: making installation less of a project"
 date: 2026-10-20 17:16:05 +0200
-categories: [projects, daisywheel, releases]
+categories: [project-updates, daisywheel]
 excerpt: "A guided AppImage installer made the first Linux setup friendlier, while downloadable packages brought the project closer to everyday use."
 ---
 

@@ -18,6 +18,7 @@ title: "Dewald's Workbench"
         {% if post.url contains '/starting-this-blog/' or post.url contains '/how-daisywheel-reamade-began/' %}
           <li>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            {% if post.categories contains 'project-updates' %}<span class="post-kind">Project Update</span>{% else %}<span class="post-kind">From the Workbench</span>{% endif %}
             <h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
             <p class="post-excerpt">{{ post.excerpt | strip_html | strip }}</p>
           </li>
@@ -33,6 +34,7 @@ title: "Dewald's Workbench"
         {% unless post.url contains '/starting-this-blog/' or post.url contains '/how-daisywheel-reamade-began/' %}
           <li>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            {% if post.categories contains 'project-updates' %}<span class="post-kind">Project Update</span>{% else %}<span class="post-kind">From the Workbench</span>{% endif %}
             <h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
             <p class="post-excerpt">{{ post.excerpt | strip_html | strip }}</p>
           </li>

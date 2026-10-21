@@ -2,7 +2,7 @@
 layout: post
 title: "Starting this blog: learning in public"
 date: 2026-10-21 12:00:00 +0200
-categories: [journal]
+categories: [workbench]
 ---
 
 I want a place to keep track of what I'm learning while I build things. Not just

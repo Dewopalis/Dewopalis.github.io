@@ -14,6 +14,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 header_pages:
+  - projects.md
   - about.md
   - now.md
 markdown: kramdown

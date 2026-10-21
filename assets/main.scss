@@ -139,6 +139,42 @@ h2 {
 .post-link:hover { color: var(--gold) !important; }
 .post-meta, .rss-subscribe { color: var(--muted); }
 .post-excerpt { color: #c2ccda; }
+.post-kind {
+  display: inline-block;
+  margin-left: .55rem;
+  padding: .12rem .48rem;
+  border: 1px solid rgba(112, 214, 232, .32);
+  border-radius: 999px;
+  color: var(--cyan);
+  font-size: .72rem;
+  font-weight: 650;
+  letter-spacing: .035em;
+  vertical-align: .08em;
+}
+.post-kind-label {
+  margin-bottom: .45rem;
+  color: var(--gold);
+  font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .065em;
+  text-transform: uppercase;
+}
+
+.project-demo { margin: 1.5rem 0; }
+.project-demo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  background: #0a0f17;
+}
+.project-demo figcaption {
+  margin-top: .55rem;
+  color: var(--muted);
+  font-size: .88rem;
+}
 
 blockquote {
   color: #c2ccda;
