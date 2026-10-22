@@ -3,7 +3,6 @@ layout: post
 title: "Why automating a Daisywheel demo was harder than it looked"
 date: 2026-10-22 18:00:00 +0200
 categories: [workbench, daisywheel]
-published: false
 excerpt: "A repeatable demo sounded simple. Then I had to deal with real focus, KDE's virtual keyboard, Wayland capture permissions, and two monitors."
 ---
 
