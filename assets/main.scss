@@ -200,34 +200,6 @@ input, textarea, select, button {
   border-color: var(--border);
 }
 
-.contact-form {
-  display: grid;
-  gap: .6rem;
-  max-width: 42rem;
-  margin: 1.5rem 0;
-}
-.contact-form label { color: var(--text); font-weight: 600; }
-.contact-form label span { color: var(--muted); font-weight: 400; }
-.contact-form input, .contact-form textarea {
-  box-sizing: border-box;
-  width: 100%;
-  padding: .7rem .8rem;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  font: inherit;
-}
-.contact-form textarea { resize: vertical; }
-.contact-form button {
-  justify-self: start;
-  padding: .65rem 1rem;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  cursor: pointer;
-  font: inherit;
-}
-.contact-form button:hover { border-color: var(--cyan); }
-.contact-form-honeypot { position: absolute; left: -10000px; }
-
 a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
   outline: 2px solid var(--gold);
   outline-offset: 3px;
