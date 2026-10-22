@@ -22,8 +22,26 @@ layout: default
     {{ content }}
   </div>
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
+  {%- if site.giscus.repo_id and site.giscus.category_id -%}
+    <section class="post-comments" aria-label="Comments">
+      <h2>Join the conversation</h2>
+      <p>Comments are public and use GitHub Discussions. You’ll need a GitHub account to join in.</p>
+      <script src="https://giscus.app/client.js"
+        data-repo="{{ site.giscus.repo | escape }}"
+        data-repo-id="{{ site.giscus.repo_id | escape }}"
+        data-category="{{ site.giscus.category | escape }}"
+        data-category-id="{{ site.giscus.category_id | escape }}"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_dimmed"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+      </script>
+    </section>
   {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>

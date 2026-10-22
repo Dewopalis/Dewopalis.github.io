@@ -17,6 +17,14 @@ header_pages:
   - projects.md
   - about.md
   - now.md
+  - contact.md
+giscus:
+  repo: Dewopalis/Dewopalis.github.io
+  repo_id: R_kgDOVSBb-A
+  category: General
+  category_id: DIC_kwDOVSBb-M4DJWJ
+formspree:
+  form_id: ""
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 exclude:
