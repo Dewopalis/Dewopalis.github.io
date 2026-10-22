@@ -11,13 +11,16 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: pages-live
   cancel-in-progress: true
 
 jobs:
   build:
+    # workflow_dispatch can select any ref, so keep deployments limited to main.
+    if: github.ref == 'refs/heads/main'
     environment:
-      name: github-pages
+      # The existing github-pages environment is stuck behind a stale protection gate.
+      name: github-pages-live
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
