@@ -78,4 +78,4 @@ is between testing Daisywheel itself and testing how a desktop environment
 integrates it. Those are both worth demonstrating, but they need different
 tools and different claims.
 
-So I am still stuck manually recording and cutting demo videos.
+So I am still stuck manually recording and cutting demo videos. Like a chump.
