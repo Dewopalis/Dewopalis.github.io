@@ -1,4 +1,4 @@
-# Dewald's Field Notes
+# Dewald's Workshop
 
 A small Jekyll blog for notes on learning, building, and figuring things out.
 It is designed to publish on GitHub Pages from this repository.
