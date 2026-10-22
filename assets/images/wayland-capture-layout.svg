@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" role="img" aria-labelledby="title description">
+  <title id="title">Two monitors exposed as one screen-capture stream</title>
+  <desc id="description">A 2560 by 1080 monitor and a 1920 by 1080 monitor appear side by side in a single 4480 by 1080 capture stream. The 1920 by 1080 monitor containing the demo is highlighted.</desc>
+  <rect width="960" height="360" rx="16" fill="#111827"/>
+  <text x="40" y="48" fill="#e7edf5" font-family="sans-serif" font-size="22" font-weight="700">One capture stream, two displays</text>
+  <text x="40" y="78" fill="#9aabc0" font-family="sans-serif" font-size="15">The portal exposed the whole desktop instead of a separate stream for each monitor.</text>
+
+  <rect x="40" y="110" width="497" height="210" rx="10" fill="#1b2635" stroke="#64748b" stroke-width="3"/>
+  <rect x="54" y="124" width="469" height="168" rx="4" fill="#0b1018"/>
+  <rect x="54" y="124" width="469" height="26" rx="4" fill="#26364c"/>
+  <circle cx="70" cy="137" r="5" fill="#f2c66d"/>
+  <text x="86" y="143" fill="#c2ccda" font-family="sans-serif" font-size="14">Other display</text>
+  <text x="288.5" y="207" fill="#9aabc0" font-family="sans-serif" font-size="24" text-anchor="middle">2560 × 1080</text>
+  <text x="288.5" y="237" fill="#9aabc0" font-family="sans-serif" font-size="14" text-anchor="middle">The unrelated video appeared in the recording</text>
+
+  <rect x="547" y="110" width="373" height="210" rx="10" fill="#172536" stroke="#70d6e8" stroke-width="3"/>
+  <rect x="561" y="124" width="345" height="168" rx="4" fill="#0b1018"/>
+  <rect x="561" y="124" width="345" height="26" rx="4" fill="#16445b"/>
+  <circle cx="577" cy="137" r="5" fill="#70d6e8"/>
+  <text x="593" y="143" fill="#e0f2fe" font-family="sans-serif" font-size="14">Intended demo display</text>
+  <rect x="579" y="174" width="309" height="88" rx="8" fill="#192537" stroke="#30425a"/>
+  <rect x="594" y="191" width="279" height="14" rx="7" fill="#30425a"/>
+  <rect x="594" y="216" width="198" height="10" rx="5" fill="#233754"/>
+  <rect x="594" y="236" width="243" height="10" rx="5" fill="#233754"/>
+  <text x="733.5" y="282" fill="#70d6e8" font-family="sans-serif" font-size="14" text-anchor="middle">1920 × 1080</text>
+
+  <path d="M40 329 V335 H920 V329" fill="none" stroke="#f2c66d" stroke-width="2"/>
+  <text x="480" y="353" fill="#f2c66d" font-family="sans-serif" font-size="14" text-anchor="middle">4480 × 1080 combined desktop capture</text>
+</svg>

@@ -47,6 +47,11 @@ intended to show. One attempt captured the wrong display, including an
 unrelated video that happened to be open there. I stopped, removed that failed
 capture and its generated files, and left the older blog recordings alone.
 
+<figure class="project-demo">
+  <img src="{{ '/assets/images/wayland-capture-layout.svg' | relative_url }}" alt="Diagram showing the 2560 by 1080 and 1920 by 1080 monitors combined into one 4480 by 1080 capture stream, with the demo display highlighted" loading="lazy">
+  <figcaption>A simplified view of the combined desktop stream that confused the recording attempt.</figcaption>
+</figure>
+
 On Wayland, screen capture and automated input also pass through desktop
 permissions. That is a good boundary for privacy and security, but it means a
 recording script has to work with the compositor's choices instead of assuming
