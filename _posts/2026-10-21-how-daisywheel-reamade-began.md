@@ -2,7 +2,8 @@
 layout: post
 title: "How Daisywheel REAmade began: REA, old ideas, and a first prototype"
 date: 2026-10-21 12:00:00 +0200
-categories: [workbench, daisywheel]
+categories: [workbench]
+tags: [daisywheel]
 excerpt: "The first decisions behind a controller-first keyboard for Windows and Linux, and the projects that helped me find a direction."
 ---
 

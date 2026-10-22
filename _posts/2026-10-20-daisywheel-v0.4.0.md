@@ -2,7 +2,8 @@
 layout: post
 title: "Daisywheel REAmade v0.4.0: giving the wheel a little voice"
 date: 2026-10-20 21:26:26 +0200
-categories: [project-updates, daisywheel]
+categories: [project-updates]
+tags: [daisywheel]
 excerpt: "Configurable shortcuts and quiet synthesized sound cues made the controller experience easier to tailor and more responsive."
 ---
 

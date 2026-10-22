@@ -2,7 +2,8 @@
 layout: post
 title: "Daisywheel REAmade v0.3.0: bringing mouse controls to the couch"
 date: 2026-10-20 18:34:16 +0200
-categories: [project-updates, daisywheel]
+categories: [project-updates]
+tags: [daisywheel]
 excerpt: "Controller profiles, mouse input, repeat deletion, and haptics helped turn the wheel into a more capable living-room input tool."
 ---
 

@@ -2,7 +2,8 @@
 layout: post
 title: "Daisywheel REAmade v0.1.0: from prototype to a real desktop keyboard"
 date: 2026-10-14 16:19:10 +0200
-categories: [project-updates, daisywheel]
+categories: [project-updates]
+tags: [daisywheel]
 excerpt: "The first release made Daisywheel REAmade usable beyond its test panel, with Windows text input, automatic activation, and a path toward downloadable packages."
 ---
 

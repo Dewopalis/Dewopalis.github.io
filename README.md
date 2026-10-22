@@ -1,4 +1,4 @@
-# Dewald's Workshop
+# Dewald's Workbench
 
 A small Jekyll blog for notes on learning, building, and figuring things out.
 It is designed to publish on GitHub Pages from this repository.
@@ -13,7 +13,8 @@ front matter at the top:
 layout: post
 title: "A useful title"
 date: 2026-10-21 12:00:00 +0200
-categories: [project]
+categories: [workbench]
+tags: [daisywheel]
 ---
 ```
 

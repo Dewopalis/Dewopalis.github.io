@@ -2,7 +2,8 @@
 layout: post
 title: "Daisywheel REAmade v0.5.0: making the whole workflow controller-first"
 date: 2026-10-20 22:00:01 +0200
-categories: [project-updates, daisywheel]
+categories: [project-updates]
+tags: [daisywheel]
 excerpt: "Controller-only settings and text editing brought the project closer to a living-room setup that does not depend on a mouse."
 ---
 

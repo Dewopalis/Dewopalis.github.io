@@ -102,6 +102,50 @@ a:hover { color: var(--gold); text-decoration-color: currentColor; }
   color: var(--gold);
 }
 
+.start-reading { margin: 1.5rem 0 0; font-size: .95rem; }
+.start-reading a { white-space: nowrap; }
+.feature-grid, .project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+.feature-card, .project-card {
+  padding: 22px 24px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: linear-gradient(145deg, rgba(25, 37, 55, .95), rgba(19, 28, 41, .92));
+}
+.feature-card h3, .project-card h3 { margin: .25rem 0 .65rem; font-size: 1.35rem; }
+.feature-card h3 a, .project-card h3 a { color: var(--text); }
+.feature-card h3 a:hover, .project-card h3 a:hover { color: var(--gold); }
+.feature-card p, .project-card p { color: #c2ccda; }
+.feature-card .post-kind-label, .project-status { margin-bottom: .5rem; }
+.read-link { font-weight: 650; }
+.project-status {
+  color: var(--green) !important;
+  font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.update-list, .related-list { margin-left: 0; list-style: none; }
+.update-list > li {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border);
+}
+.update-list h3 { margin: .3rem 0; font-size: 1.15rem; }
+.update-list h3 a { color: var(--text); }
+.update-list p { margin-bottom: 0; color: #c2ccda; }
+.all-updates { margin-top: 1.2rem; text-align: right; }
+.related-reading {
+  margin-top: 2.5rem;
+  padding-top: .5rem;
+  border-top: 1px solid var(--border);
+}
+.related-reading h2 { margin-top: 1rem; }
+.related-list li { margin: .55rem 0; }
+
 h1, h2, h3, h4 {
   color: var(--text);
   letter-spacing: -.035em;
@@ -217,6 +261,9 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   .page-content .post, .page-content .page { padding: 22px 18px; }
   .post-list > li { padding: 18px; }
   .home-hero { padding: 24px 20px; margin-bottom: 28px; }
+  .feature-grid, .project-grid { grid-template-columns: 1fr; gap: 12px; }
+  .feature-card, .project-card { padding: 20px; }
+  .all-updates { text-align: left; }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -22,6 +22,34 @@ layout: default
     {{ content }}
   </div>
 
+  {% assign related_count = 0 %}
+  {% capture related_links %}
+    {% for candidate in site.posts %}
+      {% if candidate.url != page.url %}
+        {% assign related = false %}
+        {% for tag in page.tags %}
+          {% if candidate.tags contains tag %}{% assign related = true %}{% endif %}
+        {% endfor %}
+        {% if related == false %}
+          {% for category in page.categories %}
+            {% if candidate.categories contains category %}{% assign related = true %}{% endif %}
+          {% endfor %}
+        {% endif %}
+        {% if related %}
+          <li><a href="{{ candidate.url | relative_url }}">{{ candidate.title | escape }}</a></li>
+          {% assign related_count = related_count | plus: 1 %}
+          {% if related_count == 3 %}{% break %}{% endif %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endcapture %}
+  {% if related_count > 0 %}
+    <nav class="related-reading" aria-labelledby="related-reading-title">
+      <h2 id="related-reading-title">Related reading</h2>
+      <ul class="related-list">{{ related_links }}</ul>
+    </nav>
+  {% endif %}
+
   {%- if site.giscus.repo_id and site.giscus.category_id -%}
     <section class="post-comments" aria-label="Comments">
       <h2>Join the conversation</h2>

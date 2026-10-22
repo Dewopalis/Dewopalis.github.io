@@ -20,8 +20,8 @@ often the input device already in your hands.
 </figure>
 
 - [Source code on GitHub](https://github.com/Dewopalis/daisywheel-reamade)
-- [How the project began]({{ '/2026/10/21/how-daisywheel-reamade-began/' | relative_url }})
-- [Release retrospectives]({{ '/#latest-posts' | relative_url }})
+- [Project page]({{ '/projects/daisywheel/' | relative_url }})
+- [Writing and release retrospectives]({{ '/projects/daisywheel/#writing' | relative_url }})
 
 ## Open Golden Sun
 {: #open-golden-sun }
