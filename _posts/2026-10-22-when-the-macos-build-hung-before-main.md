@@ -4,7 +4,6 @@ title: "When the macOS build hung before main"
 date: 2026-10-22 18:30:00 +0200
 categories: [workbench]
 tags: [daisywheel]
-featured: true
 excerpt: "The Mac build compiled and packaged successfully, then appeared to freeze. Finding the cause meant looking past the build log and into the app bundle."
 ---
 
