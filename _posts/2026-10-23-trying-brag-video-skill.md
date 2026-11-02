@@ -4,7 +4,6 @@ title: "Sometimes you can find some cool stuff while doomscrolling"
 date: 2026-10-23 12:00:00 +0200
 categories: [workbench]
 tags: [tools, video, workflow]
-featured: true
 excerpt: "I tried the brag coding-agent skill on a project I already knew. The useful part was shaping a clear story from real footage, not recording a new demo."
 ---
 
