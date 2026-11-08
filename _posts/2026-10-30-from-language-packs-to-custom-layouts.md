@@ -46,6 +46,4 @@ I also decided to cap the saved collection arbitrarily at eight custom layouts. 
 
 I'm glad I explored the language-pack idea and played around with JSON. It showed me that I had the right idea but my initial execution just sucked.
 
-The result is not a full language-pack system or a universal keyboard editor. It is a built-in extended page plus a way to make, share, and switch between a handful of layouts using a text file.
-
-That feels like a useful place to start. People can try the feature with ordinary tools they already have, and I can learn what kinds of layouts they actually want before building a more elaborate editor. For now, the goal is to make the wheel more adaptable without making it harder to use.
+For now, people can edit and share layouts using a text editor. I want to see what they make before tackling an editor inside Daisywheel.

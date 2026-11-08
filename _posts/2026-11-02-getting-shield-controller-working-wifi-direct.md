@@ -18,7 +18,7 @@ I initially thought I would need to reverse engineer NVIDIA's Windows support. I
 
 The useful foundation turned out to be closer to home: an old OZWPAN USB-over-Wi-Fi driver that had lived in the Linux staging tree, plus an open-source Windows USB driver reference. I restored and adapted the Linux driver for this controller and current kernels. NVIDIA's Android HID driver and observed controller reports also helped me understand the touchpad behavior.
 
-I did not decompile or redistribute an NVIDIA Windows binary. This became a Linux driver port and protocol investigation, based on open-source code and observed behavior. That distinction matters, especially when the phrase "reverse engineering" can mean a lot of different things.
+I did not decompile or redistribute an NVIDIA Windows binary. This became a Linux driver port and protocol investigation, based on open-source code and observed behavior.
 
 ## Pairing was the easy part
 
@@ -32,7 +32,7 @@ That lets the controller and my usual Wi-Fi share one adapter without FatShield 
 
 The next false finish was seeing Linux create the controller's input devices. The gamepad and mouse nodes appeared, so I expected button presses to show up. They did not.
 
-I recorded the evdev events to find out where the chain stopped. The devices were enumerated, but HID reports were not streaming. In the tested sequence, opening the virtual controller's hidraw device and issuing read-only `HIDIOCGINPUT` requests for reports 1 and 2 got the stream moving. I tested opening hidraw and reading the reports together, so I have not isolated which part was essential. The fix uses reads, not undocumented HID writes. It was a good reminder that seeing a controller in the device list is only the beginning of the test.
+I recorded the evdev events to find out where the chain stopped. The devices were enumerated, but HID reports were not streaming. In the tested sequence, opening the virtual controller's hidraw device and issuing read-only `HIDIOCGINPUT` requests for reports 1 and 2 got the stream moving. I tested opening hidraw and reading the reports together, so I have not isolated which part was essential. The fix uses reads, not undocumented HID writes.
 
 There was also a more obvious driver problem: a USB descriptor callback reported how many bytes it had been asked to copy, rather than how many it actually copied. That eventually caused a kernel fault during enumeration. Fixing the byte counts, bounds, and fragmented responses turned out to matter just as much as understanding the controller protocol.
 
@@ -53,8 +53,6 @@ Those are encouraging results, but they do not mean every Linux computer is supp
 I started out thinking this would mostly be about figuring out a wireless controller protocol. Instead, the difficult parts were the boundaries between things: Wi-Fi Direct and NetworkManager, virtual USB devices and HID reports, absolute touchpad coordinates and relative mouse input, kernel code and a desktop application.
 
 The surprise was that audio input and output worked too. I can use this silly chonk of a controller wirelessly for sound, which I absolutely did not expect to be one of the fun parts of the project.
-
-The best progress came from being precise about what each test proved. A network association did not prove input worked. An input device appearing did not prove reports were arriving. A package building did not prove the hardware worked on every distribution. Keeping those claims separate made it easier to find the next missing piece without declaring victory too early.
 
 ## Finally, does it work with Daisywheel?
 

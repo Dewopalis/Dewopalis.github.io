@@ -35,10 +35,6 @@ problems, but they couldn't replace trying the app with an actual controller
 and target applications. Steam Deck Gaming Mode, touchscreen activation, and a
 wider range of devices still needed testing.
 
-v0.3.0 made the project feel less like a keyboard demo and more like an input
-tool for a couch setup. It also made clear how much controller behavior depends
-on the hardware, desktop, and application around it.
-
 ### Release
 
 [Daisywheel REAmade v0.3.0](https://github.com/Dewopalis/daisywheel-reamade/releases/tag/v0.3.0)

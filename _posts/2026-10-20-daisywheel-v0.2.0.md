@@ -21,16 +21,7 @@ it with KDE Plasma so it could be selected under **System Settings → Keyboard
 automatically; the user stayed in control of that system setting.
 
 The release also provided a Windows setup installer and portable ZIP, Debian
-package, Fedora package, and Linux AppImage, with checksums. Having a consistent
-download set across platforms made the project feel more concrete, even though
-the setup experience still depended on each platform's conventions.
-
-## What I took from it
-
-The installer was more than a packaging convenience. It made me think about the
-whole path from finding the project to choosing it as the virtual keyboard.
-Making a feature work on my machine is one milestone; helping another person
-reach the same working state is a different one.
+package, Fedora package, and Linux AppImage, with checksums.
 
 ### Release
 

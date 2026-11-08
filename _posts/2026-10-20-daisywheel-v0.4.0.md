@@ -26,14 +26,6 @@ practice, I reduced the default output so the sounds would sit in the background
 as a small extra signal rather than dominate the interaction. Previously saved
 quiet levels were adjusted to preserve their perceived volume.
 
-## Feedback should stay optional
-
-This release reinforced a useful design lesson for me: sensory feedback is
-personal. Haptics and sound can make a controller interaction clearer, but the
-right amount varies with the device and environment. Giving people control over
-whether those cues play, and how strongly they come through, is part of making
-the keyboard comfortable to use.
-
 ### Release
 
 [Daisywheel REAmade v0.4.0](https://github.com/Dewopalis/daisywheel-reamade/releases/tag/v0.4.0)

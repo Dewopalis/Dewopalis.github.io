@@ -69,19 +69,6 @@ and Wayland input-method plumbing. Windows needed its own approach. The visual
 idea could be shared, but the desktop integration could not simply be assumed
 to work the same way on both systems.
 
-## What I learned at the start
-
-The first milestone wasn't a polished keyboard. It was a small proof that the
-controller interaction made sense and that I could build a native foundation
-for it. Once I tried to make it appear in real applications, the project became
-as much about focus, operating-system integration, packaging, and testing as it
-was about the wheel itself.
-
-That is still the part I find interesting: taking a familiar interaction and
-making it fit a different kind of computer. Daisywheel REAmade has grown well
-beyond that first prototype, but the original goal remains the same: make text
-entry feel natural when a controller is the input device in your hands.
-
 ### References
 
 - [DaisywheelJS](https://github.com/likethemammal/daisywheeljs)

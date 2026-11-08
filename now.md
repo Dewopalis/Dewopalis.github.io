@@ -21,10 +21,11 @@ project overview]({{ '/projects/#open-golden-sun' | relative_url }}).
 I'm also exploring retro games, emulation, and the systems behind them, and I
 hope to share those discoveries as I go.
 
-## What's next
+## A controller detour
 
-I want to keep improving the projects, capture more of the experiments and
-unexpected problems along the way, and give each project a useful home on this
-site.
+I've also been getting my old Wi-Fi-only NVIDIA SHIELD Controller working on
+Linux with **Open FatShield**. Input, rumble, and even audio worked on my tested
+setup. It's still an experimental alpha, with more hardware testing to do.
+[I wrote about getting it connected]({{ '/2026/11/02/getting-shield-controller-working-wifi-direct/' | relative_url }}).
 
-*Last updated: October 21, 2026.*
+*Last updated: November 8, 2026.*

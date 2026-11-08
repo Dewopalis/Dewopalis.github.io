@@ -34,10 +34,6 @@ Linux build and test checks, alongside tagged Windows and Linux package builds.
 Real applications, target handhelds, and external permission prompts still
 deserve testing beyond what automated checks can cover.
 
-For me, this release was a step toward making the full experience controller-
-first. That means supporting setup and correction, as well as typing. There is
-still more to learn from testing across devices and desktop environments.
-
 ### Release
 
 [Daisywheel REAmade v0.5.0](https://github.com/Dewopalis/daisywheel-reamade/releases/tag/v0.5.0)

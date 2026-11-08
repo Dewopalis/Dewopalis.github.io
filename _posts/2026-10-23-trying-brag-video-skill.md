@@ -9,13 +9,11 @@ excerpt: "I tried the brag coding-agent skill on a project I already knew. The u
 
 I came across [brag](https://github.com/latent-spaces/brag) through an Instagram post. It is a skill for coding agents that uses Hyperframes to turn a project into a short video. The idea sounded fun, so I wanted to see what would happen if I tried it on something of my own.
 
-I used Daisywheel as the test project because I already knew the code and had a few screen recordings ready. The post is really about trying the tool, though. Daisywheel was just a useful subject for the experiment.
+I used Daisywheel as the test project because I already knew the code and had a few screen recordings ready.
 
 ## Starting with a story
 
-The first question was not how to animate a title. It was what the video should show. We settled on one simple sequence: focus a text field, let the keyboard appear, type with a controller, and show the text that landed in the editor. Mostly because that is the basic demo gif I already had in the repo
-
-That gave the video a real beginning and result. It also kept the claims grounded in things the project already does. I did not want a generic feature reel or a made-up version of the interface.
+We settled on one simple sequence: focus a text field, let the keyboard appear, type with a controller, and show the text that landed in the editor. Mostly because that is the basic demo gif I already had in the repo.
 
 <figure class="project-demo">
   <video controls playsinline preload="metadata" poster="{{ '/assets/images/brag-experiment-poster.jpg' | relative_url }}" aria-label="A short video made with the brag skill, showing a text field opening Daisywheel and controller typing">
@@ -29,9 +27,9 @@ Music: “Happy Beats &amp; Business Moves Vol. 9” by Sascha Ende, licensed un
 
 ## It did not record the desktop for me
 
-One important detail: brag arranged recordings I already had. It did not launch Daisywheel, operate the desktop, or create those original interactions. I had recorded the Firefox popup and controller typing demos earlier, then used them as source material.
+brag arranged recordings I already had. It did not launch Daisywheel, operate the desktop, or create those original interactions. I had recorded the Firefox popup and controller typing demos earlier, then used them as source material.
 
-That distinction mattered because I had previously tried to automate live desktop recordings and ran into focus, Wayland capture, and multiple-monitor complications. This experiment started one step later in the process. It helped turn existing footage into a short story, but it did not solve the recording problem itself. So this won't help in my pursuit of laziness when it comes to recording demos.
+I had previously tried to automate live desktop recordings and ran into focus, Wayland capture, and multiple-monitor complications. So this won't help in my pursuit of laziness when it comes to recording demos.
 
 ## A small rendering wrinkle
 

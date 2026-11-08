@@ -23,8 +23,7 @@ I did get a scripted typing demo working with a virtual controller and the
 same controller-event path the app normally uses. It types into Daisywheel's
 local test panel, so it is a useful repeatable check of the wheel interaction.
 It is not the same as showing KDE opening the keyboard in Firefox or typing
-into a separate application. Keeping that distinction clear matters. A demo
-should show what it claims to show.
+into a separate application.
 
 ## The desktop is part of the feature
 
@@ -58,24 +57,10 @@ recording script has to work with the compositor's choices instead of assuming
 that every window and monitor is freely available to it. A tool that silently
 records more than the intended screen is not a tool I want to publish.
 
-## What I am taking away
-
-There are really two different jobs here. An app-level scripted demo can
-reliably exercise Daisywheel's controller and wheel logic. A live desktop demo
-has to coordinate the application, text focus, KDE's virtual keyboard, input
-permissions, window placement, monitor selection, and recording. The second
-one is closer to an integration test of the whole desktop than a simple video
-export.
-
 I stopped the live-recording attempt rather than keep adding workarounds before
 I could trust the result. The existing recordings still show the real
 experience, and the small scripted typing demo is useful for repeatable checks.
 If I return to automatic desktop recordings, the first requirement will be a
 capture path that can prove which display it is recording before it starts.
-
-For now, the failed attempt was still useful. It showed me where the boundary
-is between testing Daisywheel itself and testing how a desktop environment
-integrates it. Those are both worth demonstrating, but they need different
-tools and different claims.
 
 So I am still stuck manually recording and cutting demo videos. Like a chump.

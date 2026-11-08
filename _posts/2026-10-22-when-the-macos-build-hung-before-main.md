@@ -52,21 +52,8 @@ still point back to Homebrew paths. After that, the smoke test could launch the
 app both before and after ad-hoc signing, and the workflow produced its DMG and
 ZIP artifacts.
 
-## What I learned from the timeout
-
-The first lesson was that “it built” and “the packaged app starts” are separate
-claims. A compile and passing unit tests tell me the source is in good shape.
-They do not prove that the final bundle contains every runtime dependency.
-
-The second lesson was to make CI explain a timeout. A bare timeout only says
-that something did not finish. Capturing a process sample turned a vague
-failure into a specific startup path, and helped us distinguish the real issue
-from messages that happened to look like errors in the packaging output.
-
-There is still a limit to what this proves. The macOS runner can build and
-launch the app, but I still need someone with a Mac to try the actual keyboard
-and desktop behavior. CI can catch missing libraries and packaging regressions;
-it cannot replace testing on the platform itself.
+The macOS runner can now build and launch the app. I still need someone with
+a Mac to try the actual keyboard and desktop behavior.
 
 I expected the hard part of adding macOS support to be adapting the application
 code. For this failure, the source code was not the problem. The difficult part

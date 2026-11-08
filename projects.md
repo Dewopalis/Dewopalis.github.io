@@ -31,9 +31,9 @@ An early-stage Godot rebuild project exploring how to bring **Golden Sun** and
 part of the design from the outset: the combined campaign is planned as a
 first-party pack, alongside room for community mods and other ways to play.
 
-This is a rebuild, not a decompilation. The repository describes its current
-state as Phase 0 scaffolding, so there isn't a playable game yet. Its design
-also keeps original game material out of the repository and expects players to
-provide their own copies for local content extraction. The project is still
+This is a rebuild, not a decompilation. I've only got the Phase 0 scaffolding
+in place so far, so there isn't a playable game yet. I'm keeping original game
+material out of the repository; players will need to provide their own copies
+for local content extraction. The project is still
 very early and isn't quite ready to share publicly. I'll share more about the
 architecture and discoveries as it develops.
