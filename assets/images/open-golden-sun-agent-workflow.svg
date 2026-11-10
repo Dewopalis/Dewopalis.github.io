@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1060" viewBox="0 0 1440 1060" role="img" aria-labelledby="title desc">
+<title id="title">Open Golden Sun: autonomous delivery workflow</title>
+<desc id="desc">A human supplies goals and limits to a coordinator. Three on-demand domains cover content and evidence, runtime and gameplay, and acceptance and tooling. Bounded workers use task-appropriate models and tools. A separate reviewer returns findings. Typical concurrency is a coordinator and two workers, with a reviewer taking a freed slot; maximum four active agents including coordinator.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b1c4b8"/></marker></defs>
+<style>text{font-family:'DejaVu Sans',sans-serif;fill:#e6eee8} .title{font-family:'DejaVu Sans Condensed',sans-serif;font-weight:700;letter-spacing:.5px} .muted{fill:#acbeb3}.small{font-size:17px}.line{fill:none;stroke:#b1c4b8;stroke-width:1.7;marker-end:url(#arrow)} .box{fill:#10221b;stroke:#bacac1;stroke-width:1.6}.lead{fill:#183127;stroke:#5fc58f;stroke-width:2}.tool{fill:#1a2b23;stroke:#284438;stroke-width:1}.worker{fill:#0c1914;stroke:#bacac1;stroke-width:1.6}</style>
+<rect width="1440" height="1060" rx="16" fill="#111f1b"/>
+
+<text x="48" y="49" font-size="29" class="title">OPEN GOLDEN SUN</text>
+<text x="48" y="79" font-size="19" class="muted">Autonomous delivery · clear domain ownership · economical model routing</text>
+<text x="1110" y="48" font-size="16" class="muted">WORKFLOW / 2026-11-10</text>
+<rect x="48" y="124" width="264" height="100" rx="7" class="box"/>
+<text x="70" y="159" font-size="23" class="title">HUMAN</text>
+<text x="70" y="188" font-size="18" class="muted">Goals, limits &amp; decisions</text>
+<rect x="448" y="124" width="480" height="100" rx="7" class="box"/>
+<text x="470" y="159" font-size="23" class="title">COORDINATOR / INTEGRATOR</text>
+<text x="470" y="188" font-size="18" class="muted">Sol · priorities, contracts, integration</text>
+<rect x="1064" y="124" width="328" height="100" rx="7" class="box"/>
+<text x="1086" y="159" font-size="21" class="title">INDEPENDENT REVIEW</text>
+<text x="1086" y="188" font-size="17" class="muted">Separate agent · fresh context</text>
+<path d="M312 174 H448" class="line"/>
+<text x="335" y="157" font-size="15" class="muted">decisions</text>
+<path d="M928 174 H1064" class="line"/>
+<text x="940" y="155" font-size="15" class="muted">ready delivery</text>
+<path d="M1228 224 V256 H952 V210 H928" class="line"/>
+<text x="1016" y="247" font-size="15" class="muted">findings / fixes</text>
+<path d="M688 224 V284 H256 M688 284 H1184" fill="none" stroke="#b1c4b8" stroke-width="1.7"/>
+<path d="M256 284 V340" class="line"/>
+<path d="M720 284 V340" class="line"/>
+<path d="M1184 284 V340" class="line"/>
+<text x="738" y="315" font-size="16" class="muted">dispatch ready, independent work</text>
+<rect x="48" y="340" width="416" height="130" rx="7" class="lead"/>
+<text x="70" y="377" font-size="23" class="title">CONTENT &amp; EVIDENCE</text>
+<text x="70" y="409" font-size="18" class="muted">Formats · extraction · provenance</text>
+<text x="70" y="439" font-size="18" class="muted">Pinned Alchemy + GSRecomp facts</text>
+<path d="M256 470 V530" class="line"/>
+<text x="273" y="506" font-size="15" class="muted">bounded tasks</text>
+<rect x="512" y="340" width="416" height="130" rx="7" class="lead"/>
+<text x="534" y="377" font-size="23" class="title">RUNTIME &amp; GAMEPLAY</text>
+<text x="534" y="409" font-size="18" class="muted">Areas · events · battle · local packs</text>
+<text x="534" y="439" font-size="18" class="muted">Session and save integration</text>
+<path d="M720 470 V530" class="line"/>
+<text x="737" y="506" font-size="15" class="muted">bounded tasks</text>
+<rect x="976" y="340" width="416" height="130" rx="7" class="lead"/>
+<text x="998" y="377" font-size="23" class="title">ACCEPTANCE &amp; TOOLING</text>
+<text x="998" y="409" font-size="18" class="muted">Replay · comparisons · diagnostics</text>
+<text x="998" y="439" font-size="18" class="muted">Unattended acceptance and builds</text>
+<path d="M1184 470 V530" class="line"/>
+<text x="1201" y="506" font-size="15" class="muted">bounded tasks</text>
+<rect x="48" y="530" width="416" height="154" rx="7" class="worker"/>
+<text x="70" y="565" font-size="21" class="title">BOUNDED WORKERS</text>
+<text x="70" y="597" font-size="17" class="muted">Format maps · decoder contracts</text>
+<text x="70" y="628" font-size="18" class="">Narrow research → Luna</text>
+<text x="70" y="657" font-size="18" class="">Ambiguous formats → Sol</text>
+<path d="M256 684 V760" class="line"/>
+<rect x="512" y="530" width="416" height="154" rx="7" class="worker"/>
+<text x="534" y="565" font-size="21" class="title">BOUNDED WORKERS</text>
+<text x="534" y="597" font-size="17" class="muted">Loaders · state · isolated patches</text>
+<text x="534" y="628" font-size="18" class="">Small explicit changes → Luna</text>
+<text x="534" y="657" font-size="18" class="">Cross-system integration → Sol</text>
+<path d="M720 684 V760" class="line"/>
+<rect x="976" y="530" width="416" height="154" rx="7" class="worker"/>
+<text x="998" y="565" font-size="21" class="title">BOUNDED WORKERS</text>
+<text x="998" y="597" font-size="17" class="muted">Replay · negative checks · diagnostics</text>
+<text x="998" y="628" font-size="18" class="">Test / build execution → tools</text>
+<text x="998" y="657" font-size="18" class="">Meaningful review → separate Sol</text>
+<path d="M1184 684 V760" class="line"/>
+<text x="70" y="722" font-size="15" class="muted">harvest / validate</text>
+<text x="534" y="722" font-size="15" class="muted">integrate / check</text>
+<text x="998" y="722" font-size="15" class="muted">measure / compare</text>
+<rect x="48" y="760" width="416" height="126" rx="7" class="tool"/>
+<text x="70" y="797" font-size="22" class="title">PINNED SOURCES</text>
+<text x="70" y="830" font-size="18" class="muted">Alchemy + GSRecomp</text>
+<text x="70" y="861" font-size="17" class="muted">Facts only; original content stays local</text>
+<rect x="512" y="760" width="416" height="126" rx="7" class="tool"/>
+<text x="534" y="797" font-size="22" class="title">INTEGRATION QUEUE</text>
+<text x="534" y="830" font-size="18" class="muted">Isolated patches → combined checks</text>
+<text x="534" y="861" font-size="17" class="muted">One integration writer per checkout</text>
+<rect x="976" y="760" width="416" height="126" rx="7" class="tool"/>
+<text x="998" y="797" font-size="22" class="title">REFERENCE &amp; CHECKS</text>
+<text x="998" y="830" font-size="18" class="muted">Reviewed mGBA staging · replay</text>
+<text x="998" y="861" font-size="17" class="muted">Isolated builds · agent-operated tests</text>
+<text x="48" y="913" font-size="16" class="muted">MODEL KEY  Luna = GPT-6 Luna  ·  Sol = GPT-6.1 Sol  ·  Tools = scripts, test runners &amp; build commands</text>
+<rect x="48" y="930" width="1344" height="55" rx="7" class="tool"/>
+<text x="70" y="965" font-size="18" class="">DEFAULT: coordinator + 2 workers → reviewer takes a freed slot</text>
+<text x="1000" y="965" font-size="17" class="">MAX: 4 active, coordinator included</text>
+<text x="48" y="1019" font-size="17" class="muted">Leads activate on demand · tools before models · higher effort only for a concrete risk</text>
+<text x="48" y="1044" font-size="15" class="muted">github.com/Dewopalis/Open-Golden-Sun</text>
+<text x="1020" y="1044" font-size="15" class="muted">Role map, not a live activity report</text>
+</svg>
