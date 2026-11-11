@@ -4,6 +4,7 @@ title: "Open Golden Sun: starting, stopping, then restarting the rebuild"
 date: 2026-11-10 19:32:00 +0200
 categories: [workbench]
 tags: [open-golden-sun, godot, reverse-engineering, agents]
+featured: true
 excerpt: "Three weeks into rebuilding one of my favourite games, I nearly stopped. I'm keeping it going for myself and learning how to work with coding agents along the way."
 ---
 

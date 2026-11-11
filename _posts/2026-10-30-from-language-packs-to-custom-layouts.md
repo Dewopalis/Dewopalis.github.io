@@ -4,7 +4,6 @@ title: "From language packs to editable layouts in Daisywheel"
 date: 2026-10-30 17:00:00 +0200
 categories: [workbench]
 tags: [daisywheel, accessibility, controllers]
-featured: true
 excerpt: "A question about typing ê on a controller led from language packs to a small text format anyone can edit."
 ---
 
